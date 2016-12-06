@@ -8,7 +8,7 @@ $.ajax({
       console.log(object.firstname)
       
     $("#names").append("<div>" + object.firstname + "</div>");
-      $("#names"):contains("John")
+    $( "div:contains('Jon')" ).css( "text-decoration", "underline" );
     })
   }
 })
