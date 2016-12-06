@@ -8,7 +8,6 @@ $.ajax({
   }
 })
 
-var names = [
 
 //var fill = d3.scale.category20();
 
