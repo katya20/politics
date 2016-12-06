@@ -7,7 +7,8 @@ $.ajax({
       arr.push(object.firstname)
       console.log(object.firstname)
       
-    $("#names").append("<div> object.firstname +" </div>");
+    $("#names").append("<div>" + object.firstname + "</div>");
+      $("#names"):contains("John")
     })
   }
 })
