@@ -7,7 +7,7 @@ $.ajax({
       arr.push(object.firstname)
       console.log(object.firstname)
       
-    
+    $("#names").append(object.firstname +" ");
     })
   }
 })
